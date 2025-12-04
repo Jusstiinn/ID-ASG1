@@ -1,24 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap'); /* Import Anton SC font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); /* Import Inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-#header{
+#header {
     background-color: #f2c000;
-    padding: 20px;
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
+    padding: 15px 20px;
     font-family: "Anton SC", sans-serif;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
 }
 
-.navIcon{
-    max-width: 90%;
-    max-height: 90%;
-    gap: 0px;
+h1 {
+    margin: 0;
+    font-size: 32px;
 }
 
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+
+.navIcon {
+    width: 22px;
+    height: auto;
+}
 
 .paraLabel{
     font-family: "Anton SC", sans-serif;
@@ -50,4 +67,10 @@
 nav {
     display: flex;
     justify-content: end;
+}
+
+body {
+    background-image: url('images/Website_background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
