@@ -1,19 +1,53 @@
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
-</head>
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap'); /* Import Anton SC font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); /* Import Inter font */
 
-<body>
-    <h1>Welcome to the Homepage</h1>
-    <p>This is the main landing page of the website.</p>
+#header{
+    background-color: #f2c000;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Anton SC", sans-serif;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navIcon{
+    max-width: 90%;
+    max-height: 90%;
+    gap: 0px;
+}
 
 
+.paraLabel{
+    font-family: "Anton SC", sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.6;
+    margin: 10px 0;
+}
 
+.paraText{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.6;
+    margin: 10px 0;
+}
 
+.buttons{
+    font-family: "Inter", sans-serif;
+    color: #000000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
 
-    
-    <footer>
-        <p>&copy; 2024 My Website</p>
-    </footer>
-</body>
+nav {
+    display: flex;
+    justify-content: end;
+}
