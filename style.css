@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap'); /* Import Anton SC font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); /* Import Inter font */
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 #header {
     background-color: #f2c000;
@@ -11,9 +10,9 @@
     justify-content: space-between; 
 }
 
-h1 {
+.h1{
     margin: 0;
-    font-size: 32px;
+    font-size: 48px;
 }
 
 .nav-right {
@@ -37,9 +36,18 @@ h1 {
     height: auto;
 }
 
+.mainContent {   
+    margin: 6%;
+    margin-top: 4%;
+}
+
+.contentSpacing{
+    margin-bottom: 3%;
+}
+
 .paraLabel{
     font-family: "Anton SC", sans-serif;
-    font-size: 16px;
+    font-size: 28px;
     color: #ffffff;
     line-height: 1.6;
     margin: 10px 0;
@@ -62,6 +70,15 @@ h1 {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+.yellowButton {
+    background-color: #f2c000;
+    border: none;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    height: 30px;
 }
 
 nav {
