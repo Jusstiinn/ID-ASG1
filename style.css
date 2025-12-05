@@ -48,9 +48,66 @@
     margin-bottom: 3%;
 }
 
+.loginSpacing{
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.textCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loginCenter{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.6;
+    display: block;
+    text-align: left;
+    margin-right: auto;
+}
+
+
+.inputCenter{
+    padding: 10%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputBox{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #ffffff00;
+    color:#ffffff;
+    border: #ffffff 2px solid;
+    border-radius: 8px;
+    height: 40px;
+    display: block;
+    min-width: 0;
+}
+
+.inputField{
+    background-color: #ffffff00;
+    color:#ffffff;
+    border: white 0.75px solid;
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+    padding: 0 10px 0 10px;
+}
+
+
+
 .loginBox{
-    background-color: #1a1a1a;
-    opacity: 67%;
+    background-color: #1a1a1ab0;
     padding: 20px;
     border-radius: 32px;
     border: #ffffff 2px solid;
@@ -58,6 +115,7 @@
     margin: 0 auto;
 }
 
+/* style for all paragraph labels */
 .paraLabel{
     font-family: "Anton SC", sans-serif;
     font-size: 28px;
@@ -66,14 +124,16 @@
     margin: 10px 0;
 }
 
+/* style for all paragraph text */
 .paraText{
     font-family: "Inter", sans-serif;
     font-size: 16px;
     color: #ffffff;
     line-height: 1.6;
     margin: 10px 0;
+    text-align: start;
 }
-
+/* style for all buttons */
 .buttons{
     font-family: "Inter", sans-serif;
     color: #000000;
@@ -85,8 +145,9 @@
     cursor: pointer;
 }
 
+/* style for yellow button */
 .yellowButton {
-    background-color: #f2c000;
+    background-color: #f2c200;
     border: none;
     border-radius: 8px;
     display: inline-flex;
@@ -94,12 +155,35 @@
     height: 30px;
 }
 
+/* style for login button */
+.loginButton {
+    background-color: #f2c200;
+    border: none;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    height: 50px;
+    width: 400%;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+/* padding for login button */
+.loginPadding{
+    padding-top: 35px;
+    padding-bottom: 15px;
+    padding-right: 320px;
+}
+
+/* style for navigation bar alignment */
 nav {
     display: flex;
     justify-content: end;
 }
 
+/* style for body background */
 body {
+    background-attachment: fixed;
     background-image: url('images/Website_background.png');
     background-size: cover;
     background-repeat: no-repeat;
