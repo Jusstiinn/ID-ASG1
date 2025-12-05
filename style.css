@@ -18,6 +18,13 @@
     text-decoration: none;
 }
 
+.yellowLine{
+    width: 15%;
+    height: 4px;
+    background-color: #f2c200;
+    margin: 0 auto;
+}
+
 .nav-right {
     display: flex;
     align-items: center;
@@ -104,8 +111,6 @@
     padding: 0 10px 0 10px;
 }
 
-
-
 .loginBox{
     background-color: #1a1a1ab0;
     padding: 20px;
@@ -113,6 +118,13 @@
     border: #ffffff 2px solid;
     max-width: 600px;
     margin: 0 auto;
+}
+
+.alignCheckbox{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 10px;
 }
 
 /* style for all paragraph labels */

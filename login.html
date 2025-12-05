@@ -22,13 +22,19 @@
         <div class="loginBox">
             <!-- Login Form -->
             <h3 class="paraLabel textCenter">Login</h3>
+            <div class="yellowLine"></div>
             <div class="inputCenter"> 
                 <label for="username" class="loginCenter">Username:</label>
                 <input type="text" name="username" class="inputField inputBox">
                 <label for="password" class="loginCenter">Password:</label>
                 <input type="password" name="password" class="inputField inputBox">
-                <input type="checkbox"> Remember me
-                <div class="loginPadding">
+
+                <div class="alignCheckbox loginCenter">   <!-- remember me -->
+                    <input type="checkbox" class="checkbox " name="checkbox">
+                    <label for="checkbox">Remember me   </label>
+                </div>
+                
+                <div class="loginPadding">  <!-- Login button -->
                     <input type="submit" value="Login" class="buttons loginButton">
                 </div>             
             </div>
