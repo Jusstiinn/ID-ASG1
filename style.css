@@ -13,6 +13,9 @@
 .h1{
     margin: 0;
     font-size: 48px;
+    cursor: pointer;
+    color:#000000;
+    text-decoration: none;
 }
 
 .nav-right {
@@ -43,6 +46,16 @@
 
 .contentSpacing{
     margin-bottom: 3%;
+}
+
+.loginBox{
+    background-color: #1a1a1a;
+    opacity: 67%;
+    padding: 20px;
+    border-radius: 32px;
+    border: #ffffff 2px solid;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .paraLabel{
