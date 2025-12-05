@@ -22,20 +22,22 @@
         <div class="loginBox">
             <!-- Login Form -->
             <h3 class="paraLabel textCenter">Login</h3>
-            <div class="yellowLine"></div>
+            <div class="yellowLine1"></div>
             <div class="inputCenter"> 
                 <label for="username" class="loginCenter">Username:</label>
                 <input type="text" name="username" class="inputField inputBox">
                 <label for="password" class="loginCenter">Password:</label>
                 <input type="password" name="password" class="inputField inputBox">
 
-                <div class="alignCheckbox loginCenter">   <!-- remember me -->
-                    <input type="checkbox" class="checkbox " name="checkbox">
-                    <label for="checkbox">Remember me   </label>
+                <div class="alignCheckbox loginCenter ">   <!-- remember me -->
+                    <input type="checkbox" name="checkbox">
+                    <label for="checkbox" class="checkboxSpaceing">Remember me</label>
                 </div>
                 
                 <div class="loginPadding">  <!-- Login button -->
-                    <input type="submit" value="Login" class="buttons loginButton">
+                    <form action="login.html">
+                        <input type="submit" value="Login" class="buttons loginButton">
+                    </form>
                 </div>             
             </div>
 
