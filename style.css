@@ -31,6 +31,7 @@
     margin: 0 auto;
 }
 
+/* style for 2nd type of yellow divider*/
 .yellowLine2{
     width: 75%;
     height: 4px;
@@ -38,6 +39,7 @@
     margin: 50px auto;
 }
 
+/*madding for nav bar*/
 .navPadding{
     padding-right: 40px;
 }
@@ -77,17 +79,20 @@
     margin-bottom: 3%;
 }
 
+/*default line spacer*/
 .lineSpacing1{
     padding-bottom: 15px;
 }   
 
+/*2nd type of line spacing*/
 .lineSpacing2{
     padding-bottom: 15px;
 }   
 
 /* style for login spacing */
 .loginSpacing{
-    margin-top: 150px;
+    padding: 40% 10%;
+    display:flex;
     justify-content: center;
     align-items: center;
 }
@@ -152,7 +157,7 @@
     padding: 20px;
     border-radius: 32px;
     border: #ffffff 2px solid;
-    max-width: 600px;
+    width: 600px;
     margin: 0 auto;
 }
 
@@ -210,19 +215,20 @@
     background-color: #f2c200;
     border: none;
     border-radius: 8px;
-    display: inline-flex;
     align-items: center;
     height: 50px;
-    width: 400%;
+    width: 25vw;
     font-weight: bold;
-    margin: 0 auto;
 }
 
 /* padding for login button */
+.loginCentering{
+    display: flex;
+    justify-content: center;
+}
+
 .loginPadding{
-    padding-top: 35px;
-    padding-bottom: 15px;
-    padding-right: 320px;
+    padding-top: 30px
 }
 
 /* style for navigation bar alignment */
@@ -245,6 +251,7 @@ nav {
     padding-bottom: 75px;
 }
 
+/*Title font*/
 .pageTitle1{
     font-family: "Anton SC", sans-serif;
     font-size: 38px;
@@ -254,6 +261,7 @@ nav {
     text-align: center;
 }
 
+/*variation of title font, aligned to left*/
 .pageTitle2{
     font-family: "Anton SC", sans-serif;
     font-size: 38px;
@@ -279,6 +287,7 @@ nav {
     border-radius: 8px;
 }
 
+/*centering game sections*/
 .gameContainer{
     text-decoration: none;
     display: flex;
@@ -286,6 +295,7 @@ nav {
     margin: 20px 5%;
 }
 
+/*adjusting text for the gamepage*/
 .textAdjust{
     text-decoration: none;
     display: flex;
@@ -293,14 +303,14 @@ nav {
     margin: 50px 5%;
 }
 
+/*aligning game info*/
 .gameInfo{
-
     margin: 0 20px;
     text-align: start;
 }
 
+/*varaition of aligning game info*/
 .theGameInfo{
-    
     text-align: start;
     display: flex;
     flex-direction: column;
@@ -309,6 +319,7 @@ nav {
 
 }
 
+/*styling for large game cover*/
 .gameCoverLarge{
     width: 20%;
     height: auto;
@@ -317,14 +328,17 @@ nav {
     border-radius: 8px;
 }
 
+/*styling for game play image*/
 .gameplayImage{
     width: 50%;
     height: auto;
     margin: 50px auto;
     display: block;
     border-radius: 8px;
+    flex-direction: row;
 }
 
+/*Styling for stars*/
 .starsIcon{
     display: flex;
     width: 250px;
@@ -333,10 +347,12 @@ nav {
     padding-bottom: 5px;
 }
 
+/*adjusting the title*/
 .alignTitle{
     margin-left: 50px;
 }
 
+/*aligning input label*/
 .reviewLabelAlign{
     display: flex;
     flex-direction: column;
@@ -344,12 +360,14 @@ nav {
     align-items: start;
 }
 
+/*aligning the inuput section*/
 .reviewInputAlign{
     display: flex;
     justify-content: space-evenly;
     align-items: start;
 }
 
+/*style for name input box*/
 .nameInputBox{
     border: none;
     background-color: #b8141400;
@@ -362,6 +380,7 @@ nav {
     padding: 5px 10px;
 }
 
+/*style for review input box*/
 .reviewInputBox{
     border: none;
     background-color: #b8141400;
@@ -374,6 +393,7 @@ nav {
     padding: 5px 10px;
 }
 
+/*Font for reviews*/
 .reviewCenter{
     font-family: "Inter", sans-serif;
     font-size: 16px;
@@ -382,12 +402,14 @@ nav {
     text-align: right;
 }
 
+/*aligning submit button*/
 .alignSubmitButton{
     display: flex;
     justify-content: flex-end;
     margin: 25px 100px;
 }
 
+/*submit button styling*/
 .submitReviewButton {
     background-color: #f2c200;
     border: none;
@@ -397,6 +419,7 @@ nav {
     height: 60px;
 }
 
+/*first review text seperator*/
 .reviewSep1{
     width: 80%;
     height: 4px;
@@ -404,6 +427,7 @@ nav {
     margin: 0 auto;
 }
 
+/*2nd text seperator*/
 .reviewSep2{
     width: 80%;
     height: 1px;
@@ -411,12 +435,14 @@ nav {
     margin: 0 auto;
 }
 
+/*comment bsection styling*/
 .reviewCommentBox{
     width: 80%;
     margin: 0 auto;
     padding: 0px 0;
 }  
 
+/*username font*/
 .username{
     font-family: "Inter", sans-serif;
     font-size: 16px;
@@ -424,7 +450,6 @@ nav {
     line-height: 1.6;
     margin: 10px 0;
     text-align: start;
-    
 }
 
 /* style for body background */
@@ -433,4 +458,216 @@ body {
     background-image: url('images/Website_background.png');
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+/*============Mobile Fixes=================*/
+@media (max-width: 500px) {
+    /* Header */
+    .h1 {
+        font-size: 22px;
+    }
+
+    #header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #f2c000;
+        padding: 9px 10px;
+        font-family: "Anton SC", sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+    }
+
+    .mainContent {   
+    margin: 6%;
+    margin-top: 75px;
+}
+
+    .paraLabel{
+    font-family: "Anton SC", sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+
+    .paraText{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 1.6;
+    margin: 10px 0;
+    text-align: start;
+}
+
+    .buttons {
+        display: flex;
+        align-items: center;
+        gap: 2px;
+        font-size: 16px;
+        text-decoration: none;
+        color: black;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+    }
+
+    /* Navbar */
+    nav {
+        flex-direction: horizontal;
+        align-items: center;
+    }
+
+    .navPadding{
+    padding-right: 20px;
+}
+    .buttons {
+        font-size: 9px;
+        padding: 0px 3px;
+    }
+
+    .navIcon {
+        width: 10px;
+    }
+
+    /* Image resizing */
+    .gameCover{
+    width: 50%;
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+    .gameCoverLarge {
+        width: 50%;
+    }
+
+    .gameplayImage {
+        width: 75%;
+        flex-direction: column;
+    }
+
+    /* Layout margins */
+    .textAdjust{
+    text-decoration: none;
+    display: flex;
+    align-items: start;
+    margin: 20px 5%;
+    flex-direction: column;
+    }
+
+    .gameContainer{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 5%;
+    }
+
+    .alignTitle {
+        margin-left: 0;
+    }
+
+    /* Login box */
+    .loginBox {
+        max-width: 90%;
+        padding: 15px;
+    }
+
+    /* Titles */
+    .pageTitle1,
+    .pageTitle2 {
+        font-size: 28px;
+    }
+
+    /* Buttons */
+    .yellowButton{
+        height: 40px;
+        padding: 10px 20px;
+        font-size: 12;
+    }
+
+    .reviewLabelAlign{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-top: 15px;
+}
+
+    .reviewInputAlign{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+    .nameInputBox{
+    border: none;
+    background-color: #b8141400;
+    color: #ffffff;
+    text-underline-position: below;
+    border-bottom: #ffffff 0.75px solid;
+    border-radius: 5px;
+    width: 40vw;
+    outline: none;
+    padding: 5px 10px;
+}
+
+    .reviewInputBox{
+    border: none;
+    background-color: #b8141400;
+    color: #ffffff;
+    text-underline-position: below;
+    border-bottom: #ffffff 0.75px solid;
+    border-radius: 5px;
+    width: 70vw;
+    outline: none;
+    padding: 5px 10px;
+}
+
+    .boxCenter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-top: 75px;
+    padding-bottom: 35px;
+    }
+
+    .alignSubmitButton{
+    display: flex;
+    justify-content: center;
+    margin: 25px 100px;
+}
+
+    .gamesBox{
+    width: 100%;
+    height: auto;
+    background-color: #000000b2;
+    border-radius: 8px;
+    }
+
+    .submitReviewButton {
+    background-color: #f2c200;
+    border: none;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    height: 60px;
+    width: 120px;
+    font-size: 12px;
+}
+
+    .loginButton {
+        background-color: #f2c200;
+        border: none;
+        border-radius: 8px;
+        align-items: center;
+        height: 35px;
+        width: 50vw;
+        font-weight: bold;
+        font-size: 14;
+}
 }
