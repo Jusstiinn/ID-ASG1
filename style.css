@@ -91,7 +91,7 @@
 
 /* style for login spacing */
 .loginSpacing{
-    padding: 40% 10%;
+    padding: 10% 10%;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -227,6 +227,10 @@
     justify-content: center;
 }
 
+.loginCenter{
+    font-size: 12px;
+}
+
 .loginPadding{
     padding-top: 30px
 }
@@ -256,7 +260,7 @@ nav {
     font-family: "Anton SC", sans-serif;
     font-size: 38px;
     color: #ffffff;
-    line-height: 1.6;
+    line-height: 0;
     margin: 20px 0px;
     text-align: center;
 }
@@ -349,7 +353,7 @@ nav {
 
 /*adjusting the title*/
 .alignTitle{
-    margin-left: 50px;
+    margin: 0 5.2%;
 }
 
 /*aligning input label*/
@@ -565,10 +569,6 @@ body {
     margin: 0 5%;
     }
 
-    .alignTitle {
-        margin-left: 0;
-    }
-
     /* Login box */
     .loginBox {
         max-width: 90%;
@@ -668,6 +668,17 @@ body {
         height: 35px;
         width: 50vw;
         font-weight: bold;
-        font-size: 14;
+        font-size: 12;
+}
+    .loginSpacing{
+        padding: 40% 10%;
+    }
+
+    .alignTitle{
+    margin: 0 auto;
+}
+    .yellowLine1,
+    .yellowLine2{
+    height: 2px;
 }
 }
