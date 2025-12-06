@@ -35,7 +35,7 @@
     width: 80%;
     height: 4px;
     background-color: #f2c200;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
 .navPadding{
@@ -77,13 +77,17 @@
     margin-bottom: 3%;
 }
 
-.lineSpacing{
+.lineSpacing1{
     padding-bottom: 15px;
+}   
+
+.lineSpacing2{
+    padding-top: 30px;
 }   
 
 /* style for login spacing */
 .loginSpacing{
-    margin-top: 5%;
+    margin-top: 150px;
     justify-content: center;
     align-items: center;
 }
@@ -240,13 +244,22 @@ nav {
     padding-bottom: 75px;
 }
 
-.pageTitle{
+.pageTitle1{
     font-family: "Anton SC", sans-serif;
     font-size: 38px;
     color: #ffffff;
     line-height: 1.6;
     margin: 20px 0px;
     text-align: center;
+}
+
+.pageTitle2{
+    font-family: "Anton SC", sans-serif;
+    font-size: 38px;
+    color: #ffffff;
+    line-height: 1.6;
+    margin: 20px 0px;
+    text-align: left;
 }
 
 /* style for games box */
@@ -272,12 +285,52 @@ nav {
     margin: 20px 5%;
 }
 
+.textAdjust{
+    text-decoration: none;
+    display: flex;
+    align-items: start;
+    margin: 50px 5%;
+}
+
 .gameInfo{
 
     margin: 0 20px;
     text-align: start;
 }
 
+.theGameInfo{
+    
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 0 50px;
+
+}
+
+.gameCoverLarge{
+    width: 20%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.gameplayImage{
+    width: 50%;
+    height: auto;
+    margin: 50px auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.starsIcon{
+    display: flex;
+    width: 250px;
+    height: auto;
+    text-align: left;
+    padding-bottom: 5px;
+}
 
 /* style for body background */
 body {
