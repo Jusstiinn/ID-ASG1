@@ -39,14 +39,27 @@
             <div class="yellowLine2"></div>
 
             <div class="textAdjust">   <!--review section-->
-                <div class="theGameInfo">
-                    <p class="pageTitle2"> Reviews </p>
-                    <input type="text">
-                    <input type="text">
+                <div class="alignTitle">
+                    <p class="pageTitle1"> Reviews </p>
                 </div>
+            </div>  
 
-            </div>            
+            <div class="reviewInputAlign"> <!-- review input boxes -->
+                <div class="reviewLabelAlign">
+                    <label for="nameInput" class="reviewCenter">Username:</label>
+                    <input type="text" class="nameInputBox" name="nameInput">
+                </div>
+                 <div class="reviewLabelAlign">
+                    <label for="reviewInput" class="reviewCenter">Review:</label>
+                    <input type="text" class="reviewInputBox" name="reviewInput">
+                 </div>
+                
+            </div>
 
+            <div class="alignSubmitButton"> <!-- submit review button -->
+                <form action="gamepage.html">
+                    <input type="submit" value="Submit Review" class="buttons submitReviewButton">
+                </form>
         </div>
     </div>
 

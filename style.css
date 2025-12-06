@@ -82,7 +82,7 @@
 }   
 
 .lineSpacing2{
-    padding-top: 30px;
+    padding-left: 310px;
 }   
 
 /* style for login spacing */
@@ -330,6 +330,68 @@ nav {
     height: auto;
     text-align: left;
     padding-bottom: 5px;
+}
+
+.alignTitle{
+    margin-left: 50px;
+}
+
+.reviewLabelAlign{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.reviewInputAlign{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.nameInputBox{
+    background-color: #b8141400;
+    color: #ffffff;
+    text-underline-position: below;
+    border-bottom: #ffffff 0.75px solid;
+    border-radius: 5px;
+    width: 250px;
+    outline: none;
+    padding: 5px 10px;
+}
+
+.reviewInputBox{
+    background-color: #b8141400;
+    color: #ffffff;
+    text-underline-position: below;
+    border-bottom: #ffffff 0.75px solid;
+    border-radius: 5px;
+    width: 550px;
+    outline: none;
+    padding: 5px 10px;
+}
+
+.reviewCenter{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    display: block;
+    text-align: right;
+}
+
+.alignSubmitButton{
+    display: flex;
+    justify-content: flex-end;
+    margin: 25px 100px;
+}
+
+.submitReviewButton {
+    background-color: #f2c200;
+    border: none;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    height: 60px;
 }
 
 /* style for body background */
