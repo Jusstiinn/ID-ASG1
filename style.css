@@ -87,7 +87,11 @@
 /*2nd type of line spacing*/
 .lineSpacing2{
     padding-bottom: 15px;
-}   
+}
+
+.lineSpacing3{
+    padding-top: 30px;
+}
 
 /* style for login spacing */
 .loginSpacing{
