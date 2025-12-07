@@ -1,6 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap'); /* Import Anton SC font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); /* Import Inter font */
 
+/*interactive css*/
+.hovershade1{
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: 0.2s ease;
+    background-color: #00000000;
+}
+
+.hovershade1:hover{
+    background-color: #00000059;
+}
+
+.glow {
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: 0.25s ease;
+}
+
+.glow:hover {
+    background: #ffd632;
+    box-shadow: 0 0 20px #ffd632; /* glow */
+}
+
+.yellowhover{
+    transition: 0.25s ease;
+}
+
+.yellowhover:hover{
+    background: #c29b02;
+    background-color: #c29b02;
+}
+
+.browsehover{
+    transition: 0.25s ease;
+    border-radius: 16px;
+}
+
+.browsehover:hover{
+    background: #ffffff3a;
+}
+
+
+
 /* style for header */
 #header {
     position: fixed;
@@ -26,6 +69,7 @@
     align-items: center;
     z-index: 999;
 }
+
 
 .popup-content {
     background: #000000;
@@ -96,7 +140,7 @@
     gap: 8px;
     font-size: 16px;
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
     font-family: "Inter", sans-serif;
     font-weight: bold;
 }
@@ -276,10 +320,6 @@
 .loginCentering{
     display: flex;
     justify-content: center;
-}
-
-.loginCenter{
-    font-size: 12px;
 }
 
 .loginPadding{
@@ -515,6 +555,8 @@ body {
     background-repeat: no-repeat;
 }
 
+
+
 /*============Mobile Fixes=================*/
 @media (max-width: 800px) {
     /* Header */
@@ -563,7 +605,7 @@ body {
         gap: 2px;
         font-size: 16px;
         text-decoration: none;
-        color: black;
+        color: rgb(0, 0, 0);
         font-family: "Inter", sans-serif;
         font-weight: bold;
     }
@@ -624,6 +666,10 @@ body {
     .loginBox {
         max-width: 90%;
         padding: 15px;
+    }
+
+    .loginCenter{
+        font-size: 12px;
     }
 
     /* Titles */
