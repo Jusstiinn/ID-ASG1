@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -5,15 +8,15 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="normalize.css">
 </head>
-<html>
+
     <body>
         <header>
         <div id="header">
-            <a href="index.html"class="h1">The Gaming Den</a>
+            <a href="index.html" class="h1">The Gaming Den</a>
             <nav class="navright navPadding">
-                    <a href="#" id="searchBtn" class="buttons hovershade1"><img src="images/searchIcon.png" class="navIcon"> Search</a>
-                    <a href="browse.html" class="buttons hovershade1"><img src="images/browseIcon.png" class="navIcon"> Browse</a>
-                    <a href="login.html" class="buttons hovershade1"><img src="images/loginIcon.png" class="navIcon"> Login</a>
+                    <a href="#" id="searchBtn" class="buttons hovershade1"><img src="images/searchIcon.png" alt="search icon" class="navIcon"> Search</a>
+                    <a href="browse.html" class="buttons hovershade1"><img src="images/browseIcon.png" alt="browse icon" class="navIcon"> Browse</a>
+                    <a href="login.html" class="buttons hovershade1"><img src="images/loginIcon.png" alt="login icon" class="navIcon"> Login</a>
             </nav>
             </div>
             
@@ -21,8 +24,8 @@
             <div id="searchPopup" class="popup">
                 <div class="popup-content">
                     <span id="closePopup">&times;</span>
-                    <form action="" method="get" onsubmit="return goToPage()">
-                        <input type="text" id="userInput" class="inputBox2" placeholder="Search..." />
+                    <form method="get" onsubmit="return goToPage()">
+                        <input type="text" id="userInput" class="inputBox2" placeholder="Search...">
                         <input type="submit" value="Search" class="buttons searchButton yellowhover">
                     </form>
                 </div>
@@ -43,7 +46,9 @@
                 <div class="textAdjust">   <!--about section-->
                     <div class="theGameInfo">
                         <p class="pageTitle2"> About The Game </p>
-                        <p class="paraText lineSpacing1">Hollow Knight: Silksong places players in the role of Hornet, navigating a towering world woven with secrets, lore, and a huge variety of enemies. Movement is faster, combat is sharper, and progression is built around resourcefulness—rewarding players who adapt to the kingdom’s escalating challenges.<br></br>The world of Pharloom unfolds through layered biomes, each filled with unique enemies, hidden quests, and NPCs whose stories deepen the game’s enigmatic atmosphere. As players craft tools, discover new abilities, and unravel the mysteries of Hornet’s journey, the game balances intense boss battles with moments of quiet exploration. Silksong delivers a precise, handcrafted experience that encourages mastery, patience, and a willingness to push through the unknown.</p>
+                        <p class="paraText lineSpacing1">Hollow Knight: Silksong places players in the role of Hornet, navigating a towering world woven with secrets, lore, and a huge variety of enemies. Movement is faster, combat is sharper, and progression is built around resourcefulness—rewarding players who adapt to the kingdom’s escalating challenges.
+                        <br><br>
+                        The world of Pharloom unfolds through layered biomes, each filled with unique enemies, hidden quests, and NPCs whose stories deepen the game’s enigmatic atmosphere. As players craft tools, discover new abilities, and unravel the mysteries of Hornet’s journey, the game balances intense boss battles with moments of quiet exploration. Silksong delivers a precise, handcrafted experience that encourages mastery, patience, and a willingness to push through the unknown.</p>
                     </div>
                     <img src="images/Silksong_gameplay.png" alt="Silksong Cover" class="gameplayImage">
                 </div>            
@@ -57,11 +62,11 @@
 
                 <div class="reviewInputAlign"> <!-- review input boxes -->
                     <div class="reviewLabelAlign">
-                        <label for="nameInput" class="reviewCenter">Username:</label>
+                        <label id="nameInput" class="reviewCenter">Username:</label>
                         <input type="text" class="nameInputBox" name="nameInput">
                     </div>
                     <div class="reviewLabelAlign">
-                        <label for="reviewInput" class="reviewCenter">Review:</label>
+                        <label id="reviewInput" class="reviewCenter">Review:</label>
                         <input type="text" class="reviewInputBox" name="reviewInput">
                     </div> 
                 </div>

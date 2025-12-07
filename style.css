@@ -467,7 +467,7 @@ nav {
     border: none;
     background-color: #b8141400;
     color: #ffffff;
-    text-underline-position: below;
+    text-underline-position: under;
     border-bottom: #ffffff 0.75px solid;
     border-radius: 5px;
     width: 16vw;
@@ -480,7 +480,7 @@ nav {
     border: none;
     background-color: #b8141400;
     color: #ffffff;
-    text-underline-position: below;
+    text-underline-position: under;
     border-bottom: #ffffff 0.75px solid;
     border-radius: 5px;
     width: 32vw;
@@ -612,7 +612,7 @@ body {
 
     /* Navbar */
     nav {
-        flex-direction: horizontal;
+        flex-direction: row;
         align-items: center;
     }
 
@@ -682,7 +682,7 @@ body {
     .yellowButton{
         height: 40px;
         padding: 10px 20px;
-        font-size: 12;
+        font-size: 12px;
     }
 
     .reviewLabelAlign{
@@ -704,7 +704,7 @@ body {
     border: none;
     background-color: #b8141400;
     color: #ffffff;
-    text-underline-position: below;
+    text-underline-position: under;
     border-bottom: #ffffff 0.75px solid;
     border-radius: 5px;
     width: 40vw;
@@ -716,7 +716,7 @@ body {
     border: none;
     background-color: #b8141400;
     color: #ffffff;
-    text-underline-position: below;
+    text-underline-position: under;
     border-bottom: #ffffff 0.75px solid;
     border-radius: 5px;
     width: 70vw;
@@ -765,7 +765,7 @@ body {
         height: 35px;
         width: 50vw;
         font-weight: bold;
-        font-size: 12;
+        font-size: 12px;
 }
     .loginSpacing{
         padding: 40% 10%;
@@ -784,8 +784,8 @@ body {
         border: none;
         outline: none;
         border-radius: 8px;
-        font-size: 12;
-        padding: 15 25;
+        font-size: 12px;
+        padding: 15px 25px;
 }
     .popup {
         position: fixed;

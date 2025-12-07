@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -6,15 +9,14 @@
     <link rel="stylesheet" href="normalize.css">
 </head>
 
-<html>
     <body>
         <header>
         <div id="header">
-            <a href="index.html"class="h1">The Gaming Den</a>
+            <a href="index.html" class="h1">The Gaming Den</a>
             <nav class="navright navPadding">
-                    <a href="#" id="searchBtn" class="buttons hovershade1"><img src="images/searchIcon.png" class="navIcon"> Search</a>
-                    <a href="browse.html" class="buttons hovershade1"><img src="images/browseIcon.png" class="navIcon"> Browse</a>
-                    <a href="login.html" class="buttons hovershade1"><img src="images/loginIcon.png" class="navIcon"> Login</a>
+                    <a href="#" id="searchBtn" class="buttons hovershade1"><img src="images/searchIcon.png" alt="search icon" class="navIcon"> Search</a>
+                    <a href="browse.html" class="buttons hovershade1"><img src="images/browseIcon.png" alt="browse icon" class="navIcon"> Browse</a>
+                    <a href="login.html" class="buttons hovershade1"><img src="images/loginIcon.png" alt="login icon" class="navIcon"> Login</a>
             </nav>
             </div>
             
@@ -22,8 +24,8 @@
             <div id="searchPopup" class="popup">
                 <div class="popup-content">
                     <span id="closePopup">&times;</span>
-                    <form action="" method="get" onsubmit="return goToPage()">
-                        <input type="text" id="userInput" class="inputBox2" placeholder="Search..." />
+                    <form method="get" onsubmit="return goToPage()">
+                        <input type="text" id="userInput" class="inputBox2" placeholder="Search...">
                         <input type="submit" value="Search" class="buttons searchButton yellowhover">
                     </form>
                 </div>
@@ -44,7 +46,9 @@
                 <div class="textAdjust">   <!--about section-->
                     <div class="theGameInfo">
                         <p class="pageTitle2"> About The Game </p>
-                        <p class="paraText lineSpacing1">Overwatch 2 expands the world of heroes and villains with a polished 5v5 format that emphasizes individual impact and tight team coordination. Each hero brings a distinct playstyle, from agile flankers and tactical supports to powerful frontline tanks, giving players endless ways to refine strategies and adapt mid-fight.<br></br>The game features a blend of classic objective-based modes and evolving seasonal content, introducing new heroes, maps, and limited-time events that keep the experience fresh. Fluid movement, refined abilities, and visually vibrant battlegrounds create a competitive environment that rewards quick thinking as much as mechanical skill. Whether you're climbing the ranked ladder or enjoying casual team play, Overwatch 2 delivers a modern, fast-paced shooter that continues to grow with its community.</p>
+                        <p class="paraText lineSpacing1">Overwatch 2 expands the world of heroes and villains with a polished 5v5 format that emphasizes individual impact and tight team coordination. Each hero brings a distinct playstyle, from agile flankers and tactical supports to powerful frontline tanks, giving players endless ways to refine strategies and adapt mid-fight.
+                        <br><br>
+                        The game features a blend of classic objective-based modes and evolving seasonal content, introducing new heroes, maps, and limited-time events that keep the experience fresh. Fluid movement, refined abilities, and visually vibrant battlegrounds create a competitive environment that rewards quick thinking as much as mechanical skill. Whether you're climbing the ranked ladder or enjoying casual team play, Overwatch 2 delivers a modern, fast-paced shooter that continues to grow with its community.</p>
                     </div>
                     <img src="images/Overwatch_gameplay.png" alt="Overwatch 2 Cover" class="gameplayImage">
                 </div>            
@@ -58,11 +62,11 @@
 
                 <div class="reviewInputAlign"> <!-- review input boxes -->
                     <div class="reviewLabelAlign">
-                        <label for="nameInput" class="reviewCenter">Username:</label>
+                        <label id="nameInput" class="reviewCenter">Username:</label>
                         <input type="text" class="nameInputBox" name="nameInput">
                     </div>
                     <div class="reviewLabelAlign">
-                        <label for="reviewInput" class="reviewCenter">Review:</label>
+                        <label id="reviewInput" class="reviewCenter">Review:</label>
                         <input type="text" class="reviewInputBox" name="reviewInput">
                     </div> 
                 </div>
