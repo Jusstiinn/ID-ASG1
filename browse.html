@@ -6,57 +6,66 @@
     <link rel="stylesheet" href="normalize.css">
 </head>
 
-<body>
-    <header>
-       <div id="header">
-        <a href="index.html"class="h1">The Gaming Den</a>
-        <nav class="navright navPadding">
-                <a href="#" class="buttons"><img src="images/searchIcon.png" class="navIcon"> Search</a>
-                <a href="browse.html" class="buttons"><img src="images/browseIcon.png" class="navIcon"> Browse</a>
-                <a href="login.html" class="buttons"><img src="images/loginIcon.png" class="navIcon"> Login</a>
-        </nav>
-        </div>
-    </header>
-
-
-    <div class="boxCenter">
-        <div class="gamesBox">
-            <p class="pageTitle1 lineSpacing3">Trending games</p>
-            <div class="yellowLine2"></div>
-
-            <!--Game1, overwatch 2-->
-            <a href="overwatch.html" class="gameContainer">
-                <img src="images/Overwatch_game.png" alt="Overwatch 2 Cover" class="gameCover">
-                <div class="gameInfo">
-                    <p class="paraLabel lineSpacing">Overwatch 2</p>
-                    <p class="paraText">Overwatch 2 builds on the hero-shooter legacy with fast-paced action, bold team compositions, and dynamic objectives that reward both precision and creativity. Whether you’re diving into frantic 5v5 battles or mastering unique hero abilities, every match offers a fresh, adrenaline-fueled experience. With ongoing seasonal updates, new modes, and a constantly evolving roster, it keeps players engaged, challenged, and always coming back for more.</p>
-                </div>
-            </a>
-            <div class="yellowLine2"></div>
+<html>
+    <body>
+        <header>
+        <div id="header">
+            <a href="index.html"class="h1">The Gaming Den</a>
+            <nav class="navright navPadding">
+                    <a href="#" id="searchBtn" class="buttons"><img src="images/searchIcon.png" class="navIcon"> Search</a>
+                    <a href="browse.html" class="buttons"><img src="images/browseIcon.png" class="navIcon"> Browse</a>
+                    <a href="login.html" class="buttons"><img src="images/loginIcon.png" class="navIcon"> Login</a>
+            </nav>
+            </div>
             
-            <!--Game2, Holllow Knight: Silksong-->
-            <a href="silksong.html" class="gameContainer">
-                <img src="images/Silksong_game.png" alt="Silksong Cover" class="gameCover">
-                <div class="gameInfo">
-                    <p class="paraLabel lineSpacing">Hollow Knight: Silksong</p>
-                    <p class="paraText">Hollow Knight: Silksong follows Hornet’s ascent through a vast, haunted kingdom filled with treacherous pathways, agile foes, and intricate platforming challenges. Every encounter demands precision, timing, and mastery of her swift needle-based combat. With stunning hand-crafted environments, atmospheric storytelling, and an ever-growing roster of mysterious characters, Silksong promises a rich adventure that tests both skill and curiosity in equal measure.</p>
+            <!-- Search Popup -->
+            <div id="searchPopup" class="popup">
+                <div class="popup-content">
+                    <span id="closePopup">&times;</span>
+                    <form action="" method="get" onsubmit="return goToPage()">
+                        <input type="text" id="userInput" class="inputBox2" placeholder="Search..." />
+                        <input type="submit" value="Search" class="buttons searchButton">
+                    </form>
                 </div>
-            </a>
-            <div class="yellowLine2"></div>
+            </div>
+        </header>
 
-            <!--Game3, Inscryption-->
-            <a href="inscryption.html" class="gameContainer">
-                <img src="images/Inscryption_game.png" alt="Inscryption Cover" class="gameCover">
-                <div class="gameInfo">
-                    <p class="paraLabel lineSpacing">Inscryption</p>
-                    <p class="paraText">Inscryption blends deckbuilding, atmospheric horror, and puzzle-based progression into a uniquely unsettling experience. What begins as a simple card game quickly spirals into a layered narrative filled with secrets, shifting rules, and eerie encounters. Its tense gameplay, clever mechanics, and haunting presentation create a constantly evolving challenge that keeps players curious, cautious, and completely absorbed.</p>
-                </div>
-            </a>
 
+        <div class="boxCenter">
+            <div class="gamesBox">
+                <p class="pageTitle1 lineSpacing3">Trending games</p>
+                <div class="yellowLine2"></div>
+
+                <!--Game1, overwatch 2-->
+                <a href="overwatch.html" class="gameContainer">
+                    <img src="images/Overwatch_game.png" alt="Overwatch 2 Cover" class="gameCover">
+                    <div class="gameInfo">
+                        <p class="paraLabel lineSpacing">Overwatch 2</p>
+                        <p class="paraText">Overwatch 2 builds on the hero-shooter legacy with fast-paced action, bold team compositions, and dynamic objectives that reward both precision and creativity. Whether you’re diving into frantic 5v5 battles or mastering unique hero abilities, every match offers a fresh, adrenaline-fueled experience. With ongoing seasonal updates, new modes, and a constantly evolving roster, it keeps players engaged, challenged, and always coming back for more.</p>
+                    </div>
+                </a>
+                <div class="yellowLine2"></div>
+                
+                <!--Game2, Holllow Knight: Silksong-->
+                <a href="silksong.html" class="gameContainer">
+                    <img src="images/Silksong_game.png" alt="Silksong Cover" class="gameCover">
+                    <div class="gameInfo">
+                        <p class="paraLabel lineSpacing">Hollow Knight: Silksong</p>
+                        <p class="paraText">Hollow Knight: Silksong follows Hornet’s ascent through a vast, haunted kingdom filled with treacherous pathways, agile foes, and intricate platforming challenges. Every encounter demands precision, timing, and mastery of her swift needle-based combat. With stunning hand-crafted environments, atmospheric storytelling, and an ever-growing roster of mysterious characters, Silksong promises a rich adventure that tests both skill and curiosity in equal measure.</p>
+                    </div>
+                </a>
+                <div class="yellowLine2"></div>
+
+                <!--Game3, Inscryption-->
+                <a href="inscryption.html" class="gameContainer">
+                    <img src="images/Inscryption_game.png" alt="Inscryption Cover" class="gameCover">
+                    <div class="gameInfo">
+                        <p class="paraLabel lineSpacing">Inscryption</p>
+                        <p class="paraText">Inscryption blends deckbuilding, atmospheric horror, and puzzle-based progression into a uniquely unsettling experience. What begins as a simple card game quickly spirals into a layered narrative filled with secrets, shifting rules, and eerie encounters. Its tense gameplay, clever mechanics, and haunting presentation create a constantly evolving challenge that keeps players curious, cautious, and completely absorbed.</p>
+                    </div>
+                </a>
+
+            </div>
         </div>
-    </div>
-
-
-    
-
-</body>
+    </body>
+</html>
