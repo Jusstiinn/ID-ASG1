@@ -1,3 +1,6 @@
+Github Repo: https://github.com/Jusstiinn/ID-ASG1
+Github Link: https://jusstiinn.github.io/ID-ASG1/
+
 # Your Project's Name
 
 This website is for gamers who want to know more about the games they are interested in. Whether if its out of curiousity or if they want to buy the game, this website provides a detailed review on the games they have. It currently does not have back end, but it allows users to log in and browse for games in the browse tab.
